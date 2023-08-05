@@ -1,0 +1,26 @@
+﻿@model List<Casgem_IdentityRole.DAL.AppUser>
+@{
+    Layout = null;
+    int count = 0;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />W
+<div class="container">
+    <br />
+    <table class="table table-hover">
+        <tr>
+            <th>#</th>
+            <th>Ad Soyad</th>
+            <th>Rol Detayları</th>
+        </tr>
+        @foreach(var item in Model)
+        {
+            count ++;
+            <tr>
+                <th>@count</th>
+                <th>@item.NameSurname</th>
+                <th><a href="/Role/AssignRole/@item.Id" class="btn btn-dark">Rol Ata</a></th>
+            </tr>
+        }
+    </table>
+</div>

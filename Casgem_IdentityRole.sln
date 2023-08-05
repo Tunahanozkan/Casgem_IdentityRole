@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casgem_IdentityRole", "Casgem_IdentityRole.csproj", "{CECEAE2A-C4A6-4490-B18D-43F7C2C061A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CECEAE2A-C4A6-4490-B18D-43F7C2C061A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECEAE2A-C4A6-4490-B18D-43F7C2C061A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECEAE2A-C4A6-4490-B18D-43F7C2C061A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECEAE2A-C4A6-4490-B18D-43F7C2C061A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E01C3D86-D335-4841-B580-5823EE7EEE83}
+	EndGlobalSection
+EndGlobal
